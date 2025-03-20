@@ -1,0 +1,234 @@
+/* General styling */
+.body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('../assets/bg2.jpg'); /* Replace with the URL or path of your image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.proposal-page {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency to show the background */
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Horizontal Progress Bar */
+.progress-container {
+  background-color: #e6e6e6;
+  border-radius: 30px;
+  height: 12px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 30px;
+  transition: width 0.3s ease;
+}
+
+/* Form section styling */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-section input,
+.form-section select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.form-section input:focus,
+.form-section select:focus {
+  border-color: #4caf50;
+  background-color: #fff;
+  outline: none;
+}
+
+.form-section select {
+  appearance: none;
+  background-color: #fff;
+  color: #333;
+  padding: 15px;
+}
+
+.form-section input::placeholder {
+  font-size: 0.95rem;
+  color: #888;
+}
+
+/* Button styling */
+button {
+  padding: 12px 15px;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.prev-btn {
+  background-color: #f44336;
+}
+
+.prev-btn:hover {
+  background-color: #d73527;
+}
+
+.submit-btn {
+  background-color: #2196f3;
+}
+
+.submit-btn:hover {
+  background-color: #1976d2;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 700px) {
+  .proposal-page {
+    width: 90%;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Style the radio buttons container */
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding-bottom: 15px; /* Optional: Adds space below each question */
+  border-bottom: 1px solid #ddd; /* Line between questions */
+}
+
+/* Remove bottom border for the last question to avoid extra line */
+.form-section:last-child .radio-group:last-child {
+  border-bottom: none;
+}
+
+
+/* Style for the labels */
+.radio-label {
+  margin-right: 15px;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+/* Customize radio button */
+.custom-radio {
+  position: relative;
+  margin-right: 8px;
+}
+
+.custom-radio input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.custom-radio label {
+  position: relative;
+  cursor: pointer;
+  padding-left: 25px;
+}
+
+.custom-radio label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #007BFF;
+  background-color: white;
+}
+
+/* Checked radio button */
+.custom-radio input[type="radio"]:checked + label:before {
+  background-color: #007BFF;
+}
+
+.custom-radio input[type="radio"]:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/* Question separation */
+.question-container {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.question-container:last-of-type {
+  border-bottom: none;
+}
+
+.head1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.head2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}

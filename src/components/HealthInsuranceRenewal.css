@@ -1,0 +1,53 @@
+.renewal-container {
+    background-color: #f7f8fa;
+    padding: 50px;
+  }
+  
+  .renewal-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    border: none;
+  }
+  
+  .renewal-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #007bff;
+  }
+  
+  .form-label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .input-group-text {
+    background-color: #f1f1f1;
+    border-radius: 50px 0 0 50px;
+  }
+  
+  .form-control-lg {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+  }
+  
+  .btn-submit {
+    background-color: #007bff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .alert {
+    border-radius: 10px;
+  }
+  
+  

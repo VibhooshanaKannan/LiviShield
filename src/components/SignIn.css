@@ -1,0 +1,121 @@
+/* SignIn.css */
+
+.sign-in-container {
+  background-color: #F5F5F5; /* Light background for contrast */
+  color: #0A2647; /* Dark text color for readability */
+  padding: 15px; /* Reduced padding */
+  max-width: 800px; /* Adjusted max-width for a more compact form */
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-container h1 {
+  color: #144272; /* Use a lighter shade for headings */
+  font-size: 20px; /* Reduced font size */
+  margin-bottom: 20px; /* Reduced margin-bottom */
+}
+
+.sign-in-container p {
+  color: #205295; /* Use another shade for paragraphs */
+  font-size: 14px; /* Reduced font size */
+  margin-bottom: 20px; /* Reduced margin-bottom */
+}
+
+.auth-type label {
+  display: block;
+  margin-bottom: 20px; /* Reduced margin-bottom */
+}
+
+.input-group {
+  margin-bottom: 15px; /* Reduced margin-bottom */
+}
+
+.password-validation {
+  margin-top: 10px;
+  font-size: 12px; /* Smaller font size */
+}
+
+.password-validation p {
+  margin: 1px 0; /* Reduced margin between validation items */
+}
+
+.country-code-dropdown,
+.mobile-number-input,
+.email-input,
+.name-input,
+.password-input,
+.otp-input {
+  width: 100%;
+  padding: 6px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px; /* Reduced margin-bottom */
+  height: 32px; /* Set a fixed height for input fields */
+}
+
+.request-otp-button,
+.signup-button,
+.verify-otp-button {
+  background-color: #2C74B3; /* Use the primary color for buttons */
+  color: white;
+  padding: 8px 16px; /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px; /* Reduced font size */
+  margin-top: 10px;
+  display: block; /* Ensure buttons are displayed as block-level elements */
+  width: 100%;
+}
+
+.request-otp-button:hover,
+.signup-button:hover,
+.verify-otp-button:hover {
+  background-color: #205295; /* Darker shade on hover */
+}
+
+.or-section {
+  text-align: center;
+  margin-top: 15px; /* Reduced margin-top */
+}
+
+.or-section p {
+  margin: 8px 0; /* Reduced margin */
+  color: #144272;
+}
+
+.switch-auth-button {
+  background-color: #0A2647; /* Dark color for the switch button */
+  color: white;
+  padding: 8px 16px; /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px; /* Reduced font size */
+  margin: 5px;
+  display: block; /* Ensure buttons are displayed as block-level elements */
+  width: 100%;
+}
+
+.switch-auth-button:hover {
+  background-color: #144272; /* Lighter shade on hover */
+}
+
+.password-validation .tick {
+  color: green;
+  font-size: 16px;
+  position: absolute; /* Position the tick mark */
+  right: -20px; /* Adjust based on your layout */
+  top: 0;
+}
+
+.password-validation .valid-password-message {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4caf50; /* Green color for valid message */
+  background-color: #e8f5e9; /* Light green background */
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #4caf50;
+}

@@ -1,0 +1,263 @@
+.container {
+  background: whitesmoke;
+  min-height: 100vh;
+  width: 1000vh;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.container h1 {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #1e3a8a;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* Left Column - Main Content */
+.left-column {
+  flex: 0 0 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 70px; /* Space for h1 */
+}
+
+/* Selected Plan Container */
+.selected-plan-container {
+  background: linear-gradient(to bottom right, #f8faff, #ffffff);
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #bfdbfe;
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.08);
+}
+
+.selected-plan-container h2 {
+  color: #1e3a8a;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3b82f6;
+}
+
+.selected-plan-container h3 {
+  color: red;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-end-end-radius: 2px blue;
+}
+
+.selected-plan-container h4 {
+  color: #1e3a8a;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+
+.selected-plan-container p {
+  margin: 10px 0;
+  color: #334155;
+}
+
+.selected-plan-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.selected-plan-container ul li {
+  background-color: #f8faff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 1px solid #bfdbfe;
+  color: #1e3a8a;
+  transition: all 0.2s ease;
+}
+
+/* Car Details Container */
+.car-details-container {
+  background: linear-gradient(to bottom right, #f8faff, #ffffff);
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #bfdbfe;
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.08);
+}
+
+.car-details-container h2 {
+  color: #1e3a8a;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3b82f6;
+}
+
+.car-details-container p {
+  margin: 12px 0;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.car-details-container h4 {
+  color: #1e3a8a;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 20px 0 10px 0;
+  right: 300px;
+}
+
+.car-details-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.car-details-container ul li {
+  background-color: #f8faff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 1px solid #bfdbfe;
+  color: #1e3a8a;
+}
+
+/* Form Data Container */
+.form-data-container {
+  background: linear-gradient(to bottom right, #f8faff, #ffffff);
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #bfdbfe;
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.08);
+}
+
+.form-data-container h2 {
+  color: #1e3a8a;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3b82f6;
+}
+
+.form-data-container p {
+  margin: 12px 0;
+  color: #334155;
+}
+
+/* Right Column - Payment Section */
+.right-column {
+  flex: 0 0 30%;
+  position: sticky;
+  top: 100px; /* Adjusted for h1 */
+  align-self: flex-start;
+  margin-top: 70px; /* Space for h1 */
+}
+
+.payment-details-container {
+  background: linear-gradient(to bottom right, #ffffff, #f8faff);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(29, 78, 216, 0.12);
+  padding: 30px;
+  border: 1px solid #bfdbfe;
+}
+
+.payment-details-container h3 {
+  color: #1e3a8a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #3b82f6;
+}
+
+.plan-details p {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+  color: #334155;
+  font-size: 1.05rem;
+}
+
+.total-payment h4 {
+  color: #1e3a8a;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pay-button {
+  width: 100%;
+  padding: 5px;
+  align-items: center;
+  background: linear-gradient(to right, red, red);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pay-button:hover {
+  background: linear-gradient(to right, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(37, 99, 235, 0.2);
+}
+
+.pay-button:active {
+  transform: translateY(0);
+}
+
+.icon {
+  color: #3b82f6;
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .container h1 {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .left-column,
+  .right-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .right-column {
+    position: static;
+  }
+
+  .selected-plan-container,
+  .car-details-container,
+  .form-data-container,
+  .payment-details-container {
+    padding: 40px;
+  }
+}

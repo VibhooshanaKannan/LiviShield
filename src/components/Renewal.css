@@ -1,0 +1,376 @@
+/* Renewal.css - Enhanced styling */
+.renewal-container1 {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'POPPINS';
+    background: white;
+}
+
+.description-form-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 6rem;
+    margin-left: -30px;
+}
+
+/* Description Section Styles */
+.description1 {
+    padding: 2rem;
+    width: 700px;
+     
+}
+
+.description1 h1 {
+    color:#2b6cb0;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.description1 p {
+    color: #4a5568;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+}
+
+/* Form Section Styles */
+.form-section1 {
+    background: whitesmoke;
+    padding: 2em;
+    border-radius: 20px;
+    width: 600px;
+
+    margin-left: 140px;
+    box-shadow: 0 12px 24px rgba(0, 24, 88, 0.08);
+    border: 1px solid rgba(226, 232, 240, 0.6);
+}
+
+.form-section1 h1 {
+    color: red;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.form-section1 h2 {
+    color: #2c5282;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+/* Progress Bar Styles */
+.progress-bar1 {
+    height: 8px;
+    background-color: #edf2f7;
+    border-radius: 12px;
+    margin-bottom: 2.5rem;
+    overflow: hidden;
+}
+
+.progress1 {
+    height: 100%;
+    background: linear-gradient(90deg, red 0%, green 100%);
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Form Controls */
+.form-section1 section {
+    margin-bottom: 2.5rem;
+}
+
+.form-section1 label {
+    display: block;
+    margin-bottom: 1.5rem;
+    color: #2d3748;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
+}
+
+.form-section1 input,
+.form-section1 select {
+    width: 100%;
+    padding: 0.875rem;
+    margin-top: 0.5rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #fafbff;
+}
+
+.form-section1 input:focus,
+.form-section1 select:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 4px rgba(66, 153, 225, 0.15);
+    background-color: #ffffff;
+}
+
+.form-section1 input[type="file"] {
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+
+/* Plan Details Styles */
+.plan-details1 {
+    background: linear-gradient(145deg, #f8faff 0%, #edf2ff 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.plan-details1 h3 {
+    color: #2c5282;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+}
+
+.plan-details1 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.plan-details1 li {
+    color: #4a5568;
+    padding: 0.75rem 0;
+    padding-left: 1.75rem;
+    position: relative;
+    font-size: 0.95rem;
+}
+
+.plan-details1 li:before {
+    content: "✓";
+    color: red;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Button Styles */
+.buttons1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    gap: 1.25rem;
+}
+
+/* Premium Calculation Section Styling */
+.premium-calculation {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    padding: 20px; /* Space inside the section */
+    margin: 20px 0; /* Margin around the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .premium-calculation h2 {
+    
+    font-size: 24px; /* Slightly larger font size */
+    color: #2b6cb0; /* Dark color for text */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+  }
+  
+  .premium-calculation p {
+   
+    font-size: 18px; /* Readable font size */
+    color: #2b6cb0; /* Medium grey for paragraph text */
+    margin: 10px 0; /* Margin above and below paragraphs */
+  }
+  
+  .payment-label {
+    font-size: 18px; /* Readable font size */
+    color: black; /* Dark color for label */
+    display: block; /* Make label take full width */
+    margin: 20px 0 10px; /* Margin around the label */
+  }
+  
+  .payment-select {
+    padding: 10px; /* Space inside the select box */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for dropdown */
+    background-color: #fff; /* White background for dropdown */
+    transition: border-color 0.3s; /* Smooth transition for focus */
+  }
+  
+  .payment-select:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  @media (max-width: 768px) {
+    .premium-calculation {
+      padding: 15px; /* Less padding on smaller screens */
+    }
+  
+    .premium-calculation h2 {
+      font-size: 20px; /* Smaller font size for headings */
+    }
+  
+    .premium-calculation p,
+    .payment-label {
+      font-size: 16px; /* Smaller font size for text */
+    }
+  
+    .payment-select {
+      font-size: 14px; /* Smaller font size for dropdown */
+    }
+  }
+  
+.buttons1 button {
+    padding: 0.875rem 2.5rem;
+    border-radius: 10px;
+    font-weight:bold;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 140px;
+    letter-spacing: 0.01em;
+}
+
+.buttons1 button[type="button"] {
+    background-color: #4299e1;
+    color: white;
+    border: 2px solid #e2e8f0;
+}
+
+.buttons1 button[type="button"]:hover {
+    background-color: gray;
+    color: black;
+}
+
+.buttons1 button[type="submit"] {
+    background: linear-gradient(135deg, #3182ce 0%, #4299e1 100%);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.25);
+}
+
+.buttons1 button[type="submit"]:hover {
+    background: linear-gradient(135deg, #2c5282 0%, #3182ce 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(66, 153, 225, 0.3);
+}
+
+.buttons1 button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Document Upload Styles */
+.document-upload-section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.document-upload-section1 label {
+    background: linear-gradient(145deg, #f8fafc 0%, #f7faff 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 2px dashed #cbd5e0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.document-upload-section1 label:hover {
+    border-color: #4299e1;
+    background: linear-gradient(145deg, #ebf8ff 0%, #f0f7ff 100%);
+}
+
+/* Confirmation Section Styling */
+.confirmation-section {
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 10px; /* Rounded corners for softness */
+    padding: 30px; /* Space inside the section */
+    margin: 20px 0; /* Space around the section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .confirmation-title {
+    font-family: 'poppins';
+    font-size: 28px; /* Larger font size for emphasis */
+    color: #333; /* Dark color for text */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+  }
+  
+  .confirmation-description {
+    font-family: 'poppins'; /* Consistent font */
+    font-size: 18px; /* Readable font size */
+    color: Red; /* Medium grey for paragraph text */
+    text-align: center; /* Center align the description */
+    margin-bottom: 20px; /* Space below the description */
+  }
+  
+  .confirmation-details {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    font-family: 'poppins';/* Consistent font */
+    color: #2b6cb0; /* Darker grey for list items */
+  }
+  
+  .confirmation-details li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  .payment-summary {
+    margin-top: 25px; /* Space above payment summary */
+    padding: 15px; /* Inner padding */
+    background-color: #f7f7f7; /* Light background for summary */
+    border-radius: 8px; /* Rounded corners for summary */
+  }
+  
+  .payment-summary-title {
+    font-family: 'Poppins', sans-serif; /* Consistent font */
+    font-size: 22px; /* Readable font size for title */
+    color: red; /* Dark color for title */
+    margin-bottom: 10px; /* Space below the title */
+    text-align: center; /* Center align the title */
+  }
+  
+  .payment-details {
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+  }
+  
+  .payment-table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Remove space between table cells */
+  }
+  
+  .payment-table td {
+    padding: 12px; /* Space inside table cells */
+    border-bottom: 1px solid #ccc; /* Light border for rows */
+    color: #333; /* Dark color for text */
+  }
+  
+  .payment-table .total-amount {
+    font-weight: bold; /* Make total amount bold */
+    color: #d9534f; /* Red color for total amount */
+  }
+  
+  .terms-and-conditions {
+    margin-top: 20px; /* Space above terms and conditions */
+    color: #555; /* Medium grey for text */
+  }
+  
+  .terms-and-conditions ul {
+    padding-left: 20px; /* Indent list items */
+  }
+  
+  .terms-and-conditions li {
+    margin-bottom: 8px; /* Space between list items */
+  }

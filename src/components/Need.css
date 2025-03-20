@@ -1,0 +1,131 @@
+/* General container styling */
+.need-container {
+    padding: 1px; /* More padding for spacious feel */
+    margin: auto; /* Centered container with margin */
+    width:1200px;
+    height: 100%;}
+  
+/* Introduction styling */
+.need-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space evenly */
+    margin-bottom: 30px; /* Increased space between intro and sections */
+}
+
+.intro-image {
+    width: 45%; /* Adjust image size for balance */   border-radius: 8px; /* Slight rounding for image corners */
+    margin-right: 0px; /* Space between image and text */
+   
+}
+
+/* Text styling for introduction */
+.intro-text {
+    width: 50%; /* Adjusted width for balance */
+}
+
+.intro-text h2 {
+    font-size: 36px; /* Larger heading size */
+    color: #0056b3; /* Dark color for better contrast */
+    margin-bottom: 10px;
+    font-weight: bold; /* Space below heading */
+}
+
+.intro-text p {
+    font-size: 18px; /* Slightly larger text for readability */
+    color: #1A2B48; /* Softer text color */
+    line-height: 1.8; /* Improved line height for readability */
+}
+
+/* Grid layout for sections */
+.need-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 15px;
+}
+
+
+.need-section {
+    padding: 10px; /* Small padding for compact size */
+    background-color: whitesmoke; /* Light background for sections */
+    border-radius: 10px; /* Slightly smaller rounded corners */
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+    height: 280px;
+    width:280px;
+    font-size: 0.2em;
+   
+    overflow: hidden;
+  
+}
+
+/* Hover effect to lift section and change background */
+.need-section:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+    background-color: #f0f8ff; /* Light blue background on hover for contrast */
+}
+
+/* Elegant border on hover */
+.need-section::before {
+    content: ""; /* Add a border effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent; /* Initial border */
+    border-radius: 10px; /* Match section border radius */
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Change border color on hover */
+.need-section:hover::before {
+    border-color: #2c3e50; /* Darker border color on hover */
+}
+
+/* Headings and paragraphs within sections */
+.need-section h4 {
+    font-size: 1.5rem; /* Increased heading size for prominence */
+    color: #0056b3; /* Darker color for headings */
+    margin-bottom: 10px; /* Space below heading */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Subtle text color change on hover */
+.need-section:hover h4 {
+    color:  #0056b3; /* Darker color on hover */
+}
+
+.need-section p {
+    color:  #1A2B48; /* Softer text color */
+    font-size: 0.95rem; /* Adjusted text size */
+    line-height: 1.4; /* Improved line height for readability */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Subtle text color change on hover */
+.need-section:hover p {
+    color:  #1A2B48; /* Darker text color on hover */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .need-intro {
+        flex-direction: column; /* Stack image and text on smaller screens */
+        align-items: center; /* Center items on smaller screens */
+        text-align: center; /* Center text for better appearance */
+    }
+
+    .intro-image {
+        width: 80%; /* Full width on smaller screens */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 20px; /* Add space below image */
+    }
+
+    .intro-text {
+        width: 100%; /* Full width on smaller screens */
+    }
+}

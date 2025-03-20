@@ -1,0 +1,115 @@
+.comparison-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  background: linear-gradient(to right, #e2e2e2, #ffffff); /* Crisp white background */
+  }
+  
+  .comparison-container h1 {
+    text-align: center;
+    font-size: 1.4em; /* Larger font size for prominence */
+    margin-top:40px; /* More space below title */
+    color: #003366; /* Dark navy for a classy look */
+    font-weight: bold; /* Bold font for impact */
+   
+  }
+  
+  .comparison-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center align cards */
+  }
+  
+  .plan-card1 {
+    flex: 1 0 300px; /* Responsive flex behavior */
+    padding: 20px;
+    border-radius: 8px; /* More rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    background-color: #e6f7ff; /* Light blue background for cards */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  }
+  
+  .plan-card1:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  .plan-card1 h3,
+  .plan-card1 div {
+    margin-bottom: 8px; /* Increased margin for better spacing */
+    font-weight: bold;
+    color: #333; /* Consistent color */
+  }
+  
+  .plan-card1 h3 {
+    font-size: 1.6m; /* Slightly larger title */
+    color: #00509e; /* Deep blue for titles */
+    border-bottom: 4px solid red;
+  }
+  
+  .plan-card1 div b {
+    font-weight: bold;
+    color: #007acc; /* Lighter blue for highlighted text */
+  }
+  
+  .plan-card1 h4 {
+    margin-top: 15px; /* Increased top margin */
+    margin-bottom: 8px; /* Consistent bottom margin */
+    font-size: 18px; /* Slightly larger subheadings */
+    color: #003366; /* Dark navy for section titles */
+  }
+  
+  .plan-card1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .plan-card1 li {
+    margin-bottom: 8px; /* Increased margin for list items */
+    line-height: 1.6; /* Better line spacing */
+    color: #666; /* Dark gray for list items for readability */
+  }
+  
+  .plan-card1 li h2 {
+    font-size: 16px; /* Font size for list headings */
+    color: #004080; /* Rich blue for subheadings */
+    margin-bottom: 5px; /* Space below h2 */
+    font-weight: bold; /* Bold for emphasis */
+    position: relative; /* Positioning for decorative effect */
+  }
+  
+  .plan-card1 li h2::before {
+    content: ''; /* Decorative element */
+    display: block;
+    width: 30px; /* Width of the decorative line */
+    height: 3px; /* Height of the decorative line */
+    background-color: #00509e; /* Blue color for the decorative line */
+    margin-bottom: 5px; /* Space between line and text */
+  }
+  
+  
+  .back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px; /* Adjust padding for button size */
+    border: none;
+    border-radius: 5px;
+    background-color: #003366; /* Dark blue background */
+    color: #ffffff; /* White text for contrast */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text for emphasis */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s; /* Smooth transition */
+  }
+  
+  .back-button:hover {
+    background-color: #004080; /* Darker blue on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+

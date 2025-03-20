@@ -1,0 +1,36 @@
+.banner-container {
+  background-color: #f8f9fa; /* Light background */
+  padding: 80px 0; /* Increased padding for more space */
+  text-align: center;
+ /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  color: #333; /* Darker text for contrast */
+}
+
+.banner-container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0A2647; /* White text for contrast */
+  text-shadow: 2px 2px 4px rgba(1, 15, 60, 0.3); /* Add text shadow for depth */
+}
+
+.banner-container p {
+  font-size: 1.4rem;
+  color: #0A2647;
+  text-shadow: 2px 2px 4px rgba(1, 15, 60, 0.3);
+}
+
+.banner-actions .btn {
+  background-color: #2C74B3;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.banner-actions .btn:hover {
+  background-color: #144272;
+}

@@ -1,0 +1,179 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8; /* Light, clean background */
+  color: #333; /* Main text color */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #2C74B3;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* Main Container for Content */
+.container {
+  max-width: 800px; /* Medium container width */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Section Containers */
+.form-data-container, 
+.car-details-container, 
+.selected-plan-container {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.form-data-container:hover, 
+.car-details-container:hover, 
+.selected-plan-container:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+h2, h3, h4 {
+  color: #2C74B3;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* User Info Styles */
+p {
+  font-size: 16px;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+/* Car Details with Icons */
+.car-details-container p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.car-details-container p strong {
+  margin-right: 8px;
+}
+
+.car-details-container p .icon {
+  margin-right: 12px;
+  font-size: 18px;
+  color: #2C74B3;
+}
+
+/* Font Awesome Icons */
+.fa-car, .fa-cogs, .fa-calendar, .fa-id-badge, .fa-gas-pump, .fa-shield-alt, .fa-rupee-sign {
+  font-size: 18px;
+  color: #2C74B3;
+}
+
+/* List Styles */
+ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1, h2, h3, h4 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  ul, li {
+    font-size: 13px;
+  }
+}
+.payment-details-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.payment-details-container h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.plan-details p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.plan-details strong {
+  color: #444;
+}
+
+.total-payment {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.total-payment h4 {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.pay-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+  background-color: #0056b3;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+

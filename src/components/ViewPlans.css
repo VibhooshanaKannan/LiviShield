@@ -1,0 +1,69 @@
+.insurance-plans {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-bar button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .plan-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .plan-item {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .plan-logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .plan-details h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .plan-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .plan-details ul li {
+    margin-bottom: 5px;
+  }
+  
+  .plan-info {
+    margin-bottom: 10px;
+  }
+  
+  .plan-pricing {
+    font-size: 1.2em;
+    color: #f05a24;
+  }
+  
+  .plan-pricing small {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+  }
+  

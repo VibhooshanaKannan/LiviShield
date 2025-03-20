@@ -1,0 +1,73 @@
+/* InsuranceProducts.css */
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card {
+    text-align: center;
+    padding: 20px;
+    border: none; /* Remove unnecessary border */
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    background-color: #EEEDEB;
+    cursor: pointer; /* Enable hover effects */
+  }
+  
+  .product-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    border-radius: 50%; /* Circular icon */
+    background-color: #f2f2f2; /* Subtle background for icons */
+    /* Optional: Add a border or drop shadow for icons */
+  }
+  
+  .product-card p {
+    color: #339933; /* Green for discounts */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .discount-text {
+    color: green; /* Discount text will now be green */
+  }
+  
+  .product-card h5 {
+    font-size: 1rem;
+    font-weight: 500; /* Slightly bolder heading */
+    margin-bottom: 0;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.02); /* Subtle hover zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .insurance-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.insurance-product {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.insurance-product img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+  

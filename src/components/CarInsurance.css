@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.car-insurance-container {
+  max-width: 1200px;
+  margin: 5px auto;
+  margin-top: 70px; /* Adjust this value to push the container down */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: url('../assets/carbg.jpg') no-repeat center center;
+  background-size:cover;
+  height: 400px; /* Consistent height */
+  border: 2px solid #ccc; /* Border to the container */
+  position: relative;
+}
+.background-overlay {
+  position: absolute; /* Positioning it inside the container */
+  top: 0;
+  left: 0;
+  border-radius:10px;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4); /* Darker overlay for better contrast */
+  height: 400px; /* Full height */
+ max-width:1200px; /* Full width */
+ z-index: 0;
+}
+.quote {
+  font-size: 2.4em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff; /* White color for better contrast */
+  text-align: center;
+}
+.quote-description {
+  font-size: 18px;
+  color: #fff; /* White color for better contrast */
+  margin-bottom: 200px;
+  text-align: center;
+}
+.form-section {
+  display: flex;
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.description-text {
+  flex: 1;                       /* Take up the remaining space next to the card */
+  padding: 30px 10px;            /* Consistent padding */
+  color: #1A2B48;                /* Softer text color */
+  padding-left: 0px;  
+  margin-top: 50px;           /* Remove padding from the left */
+}
+
+/* Paragraph styling */
+.description-text p {
+  font-size: 18px;               /* Slightly larger font size */
+  color: #1A2B48;                /* Softer text color */
+  line-height: 1.6;              /* Slightly reduced line spacing */
+  text-align: left;              /* Align text to the left */
+  margin-bottom: 20px;           /* Space below paragraphs */
+}
+
+/* Heading styling */
+.description-text h2, .description-text h1 {
+  font-size: 32px;               /* Larger size for headings */
+  color: #0056b3;                /* Darker color for emphasis */
+  margin-bottom: 15px;           /* Space below the heading */
+  padding-bottom: 0px;           /* Remove padding below */
+  font-weight: bold;             /* Bold headings */
+}
+
+/* List styling */
+.description-text ul {
+  margin-left: 20px;             /* Indent list items */
+  margin-bottom: 20px;           /* Space below the list */
+  list-style-type: disc;         /* Bullet points */
+}
+
+/* List item styling */
+.description-text ul li {
+  margin-bottom: 10px;           /* Space between list items */
+  font-size: 16px;               /* Font size */
+  color: #333333;                /* Slightly darker color for readability */
+}
+
+/* Info section styling */
+.info-section {
+  margin-top: 30px;              /* Space above the section */
+  padding: 1px;                 /* Padding for breathing space */
+  height: auto;                  /* Adjust height to fit content */
+  max-width: 100%;                /* Limit max width for better readability */
+  display: flex;  
+  justify-content: flex-start;   /* Align items towards the left */
+  align-items: flex-start;       /* Align items to the top */
+}
+
+
+
+/* Policy card styling */
+.policy-card {
+  background-color: #e0f7fa; 
+      /* Light blue background */
+  border-radius: 20px;           /* Rounded corners */
+  padding: 20px;                 /* Inner padding */
+  max-width: 700px;              /* Fixed width for the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: left;              /* Align text to left */
+  position: relative;
+  margin-top: 20px;
+  margin-left :60px;            /* Small gap between card and description */
+}
+
+/* Card heading */
+.policy-card h3 {
+  font-size: 1.1em ;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Highlight for 'policybazaar' */
+.policy-card .highlight {
+  color: #0056b3; 
+  font-size: 30px;               /* Darker blue for 'policybazaar' */
+}
+
+/* Benefits list styling */
+.benefits-list {
+  list-style: none;              /* Remove bullet points */
+  padding-left: 0;
+}
+
+/* Benefit item styling */
+.benefits-list li {
+  margin-bottom: 10px;           /* Space between benefits */
+  font-size: 16px;
+  color: #333;
+  display: flex;                 /* Display items inline */
+  align-items: center;
+}
+
+/* Checkmark icon styling */
+.checkmark {
+  color: #26a69a;                /* Green color for the checkmark */
+  margin-right: 10px;
+}
+
+/* "New" badge styling */
+.new-badge {
+  background-color: #4caf50;     /* Green for "New" badge */
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+/* View Plans button */
+.view-plans-btn {
+  background-color: #1976d2;     /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  
+}
+
+/* Button hover effect */
+.view-plans-btn:hover {
+  background-color: #1565c0;
+    /* Darken on hover */
+}
